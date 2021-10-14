@@ -1,9 +1,22 @@
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+<script>
+	WebFont.load({
+		google: {
+			families: ['VT323:300,400,700']
+		}
+	});
+</script>
+
+
+
+
 window.onload = 'getthecookie()'
 function getthecookie() {
 	text
 }
 function play() {
-  addhtml("<iframe src='https://classic.minecraft.net' id='game'></iframe><div id='X' style='color: red; position:absolute; right:0; top:0; font-weight: bold; font-size: 70px;z-index: 2;cursor: pointer;' onclick='stop();'>x</div><div onclick='stop();' style='position:fixed; top:0; left:0; text-align:center; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:1.5; color:white; background-color:black; font-size:165%;' id='loading'>LOADING...</div>");
+  addhtml("<iframe src='https://classic.minecraft.net' id='game'></iframe><div id='X' style='color: red; position:absolute; right:0; top:0; font-family: 'VT323', monospace; font-weight: bold; font-size: 70px;z-index: 2;cursor: pointer;' onclick='stop();'>x</div><div onclick='stop();' style='position:fixed; top:0; left:0; text-align:center; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:1.5; color:white; background-color:black; font-size:165%;' id='loading'>LOADING...</div>");
 }
 
 function stophow() {
