@@ -3,7 +3,7 @@
 <script>
 	WebFont.load({
 		google: {
-			families: ['VT323:300,400,700']
+			families: ['VT323:400']
 		}
 	});
 </script>
