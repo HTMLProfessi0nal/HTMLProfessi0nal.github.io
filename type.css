@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+   animation: type 5s infinite;
+   width: 100%;
+   height: 100%;
+}
+
+body {
+   animation: type 5s infinite;
+   font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+  overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: red;
+   text-shadow: 0 1px black;
+/*     */
+}
+span {
+   animation: type 5s infinite;
+    border-bottom: 7px solid whitesmoke;
+/*   box-shadow: inset 0px -4px whitesmoke; */
+   animation: type 5s infinite;
+  width: 14px;
+  display: block;
+  position: relative;
+  bottom: 0;
+  float: left;
+}
+div {
+   animation: type 5s infinite;
+  float: left;
+}
+div:before {
+  display: block;
+  position: relative;
+  bottom: 0;
+  content: "";
+   font-weight: bold;
+   font-size: 2em;
+  animation: type 3s 0.25s ease-in-out infinite alternate;
+}
+
+@keyframes type {
+  5% {
+    content: "Y";
+  }
+   
+
+  10% {
+    content: "Yo";
+ 
+  }
+  
+  15% {
+    content: "You ";
+  }
+  20% {
+    content: "You Ha";
+  }
+  25% {
+    content: "You Have";
+  }
+  30% {
+    content: "You Have B";
+  }
+   35% {
+      content: "You Have Be";
+   }
+   40% {
+      content: "You Have Bee ";
+   }
+   45% {
+      content: "You Have Been ";
+   }
+   50% {
+      content: "You Have Been H";
+   }
+   55% {
+      content: "You Have Been Ha";
+   }
+   60% {
+      content: "You Have Been Hac";
+   }
+   65% {
+      content: "You Have Been Hack";
+   }
+   70% {
+      content: "You Have Been Hacke";
+   }
+   75% {
+      content: "You Have Been Hacked";
+   }
+   76% {
+      content: "L";
+   }
+   77% {
+      content: "LO";
+   }
+   78% {
+      content: "LOO";
+   }
+   79% {
+      content: "LOOO";
+   }
+   100% {
+      content: "LOOOL :D";
+   }
+
+
+}
